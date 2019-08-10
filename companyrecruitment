@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int x,p;
+int x1;
+int sum=0;
+scanf("%d%d",&x,&p);
+while(x>0)
+{
+sum=sum+x;
+x1=0.0.1*p*x;
+x=x-x1;
+}
+prinf("%d",sum);
+}
